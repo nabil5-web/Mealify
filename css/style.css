@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: cursive;
+}
+:root{
+    --font-primary: "Amatic SC", sans-serif;
+}
+/* start header section */
+
+.header_home_section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
+}
+.doit_red{
+    color: red;
+}
+.ancor_navBar {
+    transition:border-bottom 2s ease-in-out ;
+
+a:hover
+{border-bottom: 3px rgb(204, 7, 7) solid !important;
+
+}
+
+}
+
+.icon_navBar{
+    font-size: 28px;
+}
+.enjoy_caption h2{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.enjoy_caption button{
+    border: none;
+    padding: 8px 28px;
+    border-radius: 0px 20px 20px 20px;
+    margin: 10px;
+    color: #fff;
+    background-color: rgb(179, 6, 6);
+}
+
+@media screen and (max-width:600px){
+    .header_home_section{
+        height: fit-content;
+    }
+    .hero_photo{
+        margin: auto;
+    }
+    .enjoy_caption{
+        position: absolute;
+        top: 75%;
+    }
+    .chefs_caption{
+        width: 100%;
+    }
+   
+    }
+    
+
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    
+    .header_home_section{
+        height: fit-content;
+    }
+
+
+    .enjoy_caption{
+        position: absolute;
+        top: 83%;
+       
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    
+    .header_home_section{
+height: fit-content;    }
+
+    .enjoy_caption{
+        position: absolute;
+        top: 102%;
+       
+    }
+    
+}
+/* end header section */
+
+
+/* start chefs section  */
+.chefs_section span{
+    color: rgb(179, 6, 6);
+
+}
+.chefs_section h2{
+    font-family: cursive;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.chefs_section h6{
+    padding: 1px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.304);
+}
+
+.media_icon{
+    width: fit-content;
+    height: fit-content;
+}
+.media_icon i{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.icons_chefs_section{
+    width: 48px;
+    height: 160px;
+    position: absolute;
+    background-color: rgb(228, 225, 225);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.368);
+    top: 4%;
+    left: 102%;
+    opacity: 0;
+    transition: all 0.3s 0.7s ease-in-out;
+
+}
+.photo_hover{
+    transition: all 0.4s  ease-in-out;
+    overflow: hidden;
+
+}
+
+.photo_hover:hover .icons_chefs_section{
+    top: 4%;
+    left: 86%;
+    opacity: 0.5;
+}
+.photo_hover:hover{
+    transform: scale(1.04,1.04);
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-2px, 0); }
+    40% { transform: translate(2px, 0); }
+    60% { transform: translate(-2px, 0); }
+    80% { transform: translate(2px, 0); }
+    100% { transform: translate(0, 0); }
+  }
+  
+  .shake-on-hover:hover {
+    animation: shake 0.5s infinite;
+  }
+  
+
+/* end chefs section  */
+
+/* start gallarey section  */
+.gallarey_section{
+    background-color: rgb(241, 241, 241);
+    height: fit-content;
+
+}
+
+/* start contact section  */
+iframe{
+    height: 50vh;
+    :hover{
+        cursor: copy;
+    }
+}
+
+/* end gallarey section  */
+
+/* start contact section  */
+
+.contact_bg{
+    background-color: #efeded;
+    box-shadow: 2px 2px 30px 20px #f7f4f4;
+    padding: 10px;
+}
+form{
+    padding: 20px;
+border: solid 1px #e8e7e7;}
+input{
+    width: 150px;
+    height: 45px;
+}
+/* start contact section  */
+.footer_section{
+    background-color: #000000b6 !important;
+    color: #fff !important;
+}
